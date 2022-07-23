@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Information</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<header>
+    <a href="#" class="logo">RTr</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="nav-list">
+        <li><a href="home.html" class="link">Home</a></li>
+        <li><a href="category.html" class="link">Horror</a></li>
+        <li><a href="category.html" class="link">Sci-fi</a></li>
+
+    </ul>
+</header>  
+
+<div class="form"> <br> <br>
+    <h2>Please enter your information</h2>
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="First name.."><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Last name.."><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Email Address.."><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number.."><br>
+    </form>
+    <br>
+    <h2>How would you like to be contact?</h2>
+    <form>
+        <input type="checkbox" id="email" name="email" value="Email">
+        <label for="Email"> By email</label><br>
+        <input type="checkbox" id="phone" name="phone" value="Phone">
+        <label for="Phone"> By phone</label><br>
+    </form>    
+
+    <h2>Do you want to receive our weekly newsletter</h2>
+    <form>
+        <input type="radio" id="yes" name="yes" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="no" value="no">
+        <label for="no">No</label><br>
+        <form action="#">
+            <textarea name="comment" placeholder="Note"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </form>    
+
+    <footer>
+        &copy; RMIT SSET
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li id="contact"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+</div>

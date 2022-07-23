@@ -1,0 +1,152 @@
+body {
+    overflow-x: hidden;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(auto-fit, minmax(250px,fe));
+
+}
+
+/**header decoration**/
+header {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow:0 0 3px #000;
+}
+
+header li {
+    display: inline;
+    padding-left: 45px;
+}
+
+header li a {
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+
+
+header ul #home a {
+    color: #fff;
+    background-color: royalblue;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    transition: .3s ease;
+}
+
+header ul #home a:hover {
+    background-color: goldenrod;
+}
+
+header li img {
+    width: 180px;
+    float: left;
+    margin-top: -20px;
+}
+
+/**body decoration**/
+
+.breadbrumbs{
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.breadcrumbs_item {
+    display: inline-block;
+}
+
+.breadcrumbs_item:not(:last-of-type)::after{
+    content: '>';
+    margin: 0 5px;
+    color: #cccccc;
+}
+
+.breadbrumb_link {
+    text-decoration: none;
+    color: #999;
+}
+
+.breadbrumb_link:hover{
+    text-decoration: underline;
+}
+
+.breadbrumb_link_active {
+    color: navy;
+    font-weight: 500;
+}
+
+.price-button {
+    width: 33.33%;
+    float: right;
+}
+.image {
+    width: 33.33%;
+    float: left;
+} 
+.buttons {
+    width: 33.33%;
+    margin: 0 auto;
+    display: block;
+} 
+
+.title-des{
+    position: absolute;
+    bottom: 200px;
+}
+
+button {
+    height: 80px;
+    width: 400px;
+}
+
+.price {
+    font-size: 30px;
+
+}
+
+.description {
+    font-size: larger;
+}
+
+
+/**footer decoration**/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: grey;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow:0 0 3px #000;
+}
+
+footer li {
+    display: inline;
+    padding-left: 45px;
+}
+
+footer li a {
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+
+
+footer ul #contact a {
+    color: #fff;
+    background-color: royalblue;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -30px;
+    transition: .3s ease;
+}
+
+footer ul #contact a:hover {
+    background-color: goldenrod;
+}

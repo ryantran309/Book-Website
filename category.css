@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-color: rgb(51, 73, 183);
+    --bg-color:  #cec7c7;
+    --text-color: #d29040;
+    --big-font: 3.6rem;
+    --h2-font: 2.26rem;
+    --p-font: 1.1rem;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 110;
+    padding: 15px 320px;
+    background-color: var(--bg-color);
+    box-shadow: rgba(33,35,38,0.1) 0px 10px 10px -10px;
+}
+
+.logo{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--main-color)
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list a{
+    color: var(--text-color);
+    font-size: 0.9rem;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-list a:hover{
+    color: var(--main-color);
+}
+
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.link::after{
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: .3s;
+    background-color: var(--main-color);
+}
+
+.link:hover::after{
+    margin-left: 10px;
+    width: 90%;
+    transition: .3s;
+}
+
+section{
+    padding: 77px 16%;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h2{
+    font-size: var(--h2-font);
+    
+}
+
+.heading span{
+    color: var(--main-color);
+    font-size: var(--h2-font);
+}
+
+.horror{
+    padding-top: 100px;
+}
+
+.book-container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(320px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.book-box h2{
+    margin-bottom: 18px;
+    font-weight: 420;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+section{
+    padding: 77px 16%;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading1{
+    text-align: center;
+}
+
+.heading1 h2{
+    font-size: var(--h2-font);
+    
+}
+
+.heading h2{
+    font-size: var(--h2-font);
+    
+}
+
+.heading span{
+    color: var(--main-color);
+    font-size: var(--h2-font);
+}
+
+.scifi{
+    padding-top: 100px;
+}
+
+.book-container1{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(320px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.book-box1 h2{
+    margin-bottom: 18px;
+    font-weight: 420;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
